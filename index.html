@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Feedback</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="C:\Users\madhav kumar\Desktop\feedback\style.css">
+</head>
+<body class="chef" style="background-color:mediumseagreen">
+<nav class="hd">
+  <div id="div1">
+   <h1>Feedback</h1>
+  </div>
+  <div id="div2">
+   <h1>Your feedback matters</h1>
+  </div>
+</nav>
+<div id="main">
+  <div id="div1">
+	 <label for="fname">First Name*:</label><input type="text" id="fname" maxlength="40" value=""><br><br>
+	 <label for="mname">Second Name:</label><input type="text" id="mname" maxlength="40" value=""><br><br>
+	 <label for="lname">Last Name*:</label><input type="text" id="lname" maxlength="40" value=""><br><br>
+	 <label for="sug">Suggestions*:</label><textarea id="sug" name="suggestion" rows="7" cols="48"></textarea><br><br>
+	 <label for="gen" name="gender">Gender*:</label>Male<input type="radio" id="male" name="gender">
+	 Female <input type="radio" id="female" name="gender"><br>
+	 <button type="button" id="but1" onclick="sendInfo()">send</button>
+	<button type="button" id="but2" onclick="clearInfo()">clear</button>
+  </div>
+  <div id="div2">
+  <textarea id="p1" name="feedback" rows="29" cols="86" readonly></textarea>
+    
+  </div>
+</div>
+<footer>
+   <h1>developedBy@Keshav</h1>
+</footer>
+<script src="run.js" ></script>
+</body>
+</html>

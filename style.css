@@ -1,0 +1,83 @@
+* {
+	margin:0;
+	padding:0;
+}
+.chef{
+	background-color:mediumseagreen;
+}
+.hd{
+	display:flex;
+	justify-content:space-between;
+	padding:30px;
+	margin:10px;
+	background-color:mediumseagreen;
+	font-size:30px;
+}
+#main {
+	display:flex;
+	padding:10px;
+	background-color:gray;
+	height:500px;
+}
+#main #div1 {
+	width:50%;
+	padding:10px;
+    margin:10px;
+	background-color:gray;
+}
+#main #div1 label {
+	display:inline-block;
+	width:160px;
+	font-size:150%;
+} 
+#main #div1 label #gen{
+	display:flex;
+} 
+#main #div1 #fname {
+	display:inline-block;
+	width:350px;
+	font-size:150%;
+} 
+#main #div1 #mname {
+	display:inline-block;
+	width:350px;
+	font-size:150%;
+} 
+#main #div1 #lname {
+	display:inline-block;
+	width:350px;
+	font-size:150%;
+} 
+#main #div2 {
+	width:50%;
+	padding:20px;
+	margin:10px;
+	background-color:gray;
+}
+#main #div1 #male {
+	display:inline;
+	width:20px;
+	font-size:150%;
+} 
+#main #div1 #female {
+	display:inline;
+	width:20px;
+	font-size:150%;
+} 
+#main #div1 #but1 {
+	display:inline;
+	margin:20px;
+	margin-left:160px;
+	height:40px;
+	width:150px;
+}
+#main #div1 #but2 {
+	display:inline;
+	margin:20px;
+	margin-left:160px;
+	height:40px;
+	width:150px;
+} 
+footer {
+	text-align:center;
+}
